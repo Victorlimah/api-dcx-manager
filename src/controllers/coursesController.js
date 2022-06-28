@@ -1,5 +1,5 @@
 import chalk from "chalk";
-import { getCenters, getCourses } from "../repositories/coursesRepository";
+import { getCenters, getCourses } from "../repositories/coursesRepository.js";
 
 export async function listCenters(_req, res){
   try{
